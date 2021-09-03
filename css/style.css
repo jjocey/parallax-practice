@@ -1,0 +1,64 @@
+
+@import url("CSS/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,700&display=swap');
+@media only screen and (max-device-width: 1366px) {
+ 
+.parallax{
+    background-attachment: scroll;
+    }
+  }
+
+body, html {
+    height: 100%;
+    font-family: 'open sans', 'sans-serif';
+    color: black;
+}
+
+.parallax{
+    background-image: url(/images/pic1.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paragraph1{
+    background-color: black; opacity: 50%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.parallax2{
+    background-image: url(/images/pic2.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    background-image: url(/images/pic3.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4{
+    background-image: url(/images/pic4.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax5{
+    background-image: url(/images/pic5.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
